@@ -6,7 +6,7 @@ app.use(cors())
 app.use(express.json())
 const usermodel=require("./Userschema.js/Users")
 const port=3001;
-mongoose.connect("mongodb+srv://Hydra:4tZZV4ALNFQlZx2u@fullstack.38qbr5w.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("url")
 .then(()=>
 {
     console.log("Succesfully connected")
